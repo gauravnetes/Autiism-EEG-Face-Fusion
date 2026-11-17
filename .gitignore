@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Dataset archives and extracted source data are downloaded separately.
+data/raw/*
+!data/raw/.gitkeep
+data/reference/
+
+# Generated features, models, figures, predictions, and reports.
+results/*
+!results/.gitkeep
